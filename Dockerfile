@@ -1,16 +1,19 @@
-FROM jekyll/jekyll:latest
+FROM ruby:3.1-alpine
+
+RUN apk update && apk add --no-cache \
+    build-base \
+    gcc \
+    cmake \
+    nodejs \
+    yarn \
+    git
+
+RUN gem install bundler jekyll
 
 WORKDIR /srv/jekyll
 
-COPY . /srv/jekyll
-
-USER root
-RUN chown -R jekyll:jekyll /srv/jekyll
-USER jekyll
-
-RUN bundle config set path 'vendor/bundle'
-RUN bundle install
+COPY Gemfile Gemfile.lock ./
 
 EXPOSE 4000
 
-CMD ["jekyll", "serve", "--host", "0.0.0.0"]
+CMD ["sh", "-c", "bundle install && bundle exec jekyll serve --host 0.0.0.0"]
