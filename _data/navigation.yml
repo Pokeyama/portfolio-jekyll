@@ -1,0 +1,12 @@
+main:
+  - title: "プロフィール"
+    url: /
+
+  - title: "スキル"
+    url: /skill/
+
+  - title: "経験プロジェクト"
+    url: /experience/
+
+  - title: "自己PR"
+    url: /self/
