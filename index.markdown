@@ -1,29 +1,188 @@
 ---
-layout: splash
+layout: home
 title: "どの分野も”そこそこ”を目標にしています"
 date: 2024-09-25
 permalink: /
 header:
-  overlay_image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhjd7BAsZ3Cwhz_v-0ZqchYoeEiLjVV5hEnWCXLLJ9u6mMhTQIHx3AyxQwSWq6rprkJyIVoDqQP9pgdbVagdkdrq_W-emY8FV3CXpgE3yTl4o8x274yT6cEPxaIhQACDq53bV_bEUTsQ8sr/s742/omairi_mask_boy.png
+  overlay_image: ./assets/mozaiku2.jpg
   overlay_filter: 0.5
   overlay_color: "#000"
-  caption: "ここにキャプションテキストを入力"
+  caption: "処 スパジアム ジャポン"
   actions:
     - label: "連絡先"
-      url: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhjd7BAsZ3Cwhz_v-0ZqchYoeEiLjVV5hEnWCXLLJ9u6mMhTQIHx3AyxQwSWq6rprkJyIVoDqQP9pgdbVagdkdrq_W-emY8FV3CXpgE3yTl4o8x274yT6cEPxaIhQACDq53bV_bEUTsQ8sr/s742/omairi_mask_boy.png
+      url: /self/
       class: "btn--primary"
-excerpt: "転職活動中です"
+excerpt: "採用をご検討いただける企業様がございましたら、連絡先からご連絡ください"
+author_profile: true
 ---
+<!-- Chart.js CDNの追加 -->
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
-# HY
+<!-- スキルグラフのコンテナ -->
+<div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; margin: 40px 0;">
 
----
+  <!-- スキル1: C# -->
+  <div style="width: 150px; height: 150px; position: relative; padding: 10px;">
+    <canvas id="skillChart1"></canvas>
+    <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); text-align: center; font-weight: bold; color: #333;">
+      C#<br>90%
+    </div>
+  </div>
+  
+  <!-- スキル2: PHP -->
+  <div style="width: 150px; height: 150px; position: relative; padding: 10px;">
+    <canvas id="skillChart2"></canvas>
+    <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); text-align: center; font-weight: bold; color: #333;">
+      PHP<br>70%
+    </div>
+  </div>
+  
+  <!-- スキル3: Docker -->
+  <div style="width: 150px; height: 150px; position: relative; padding: 10px;">
+    <canvas id="skillChart3"></canvas>
+    <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); text-align: center; font-weight: bold; color: #333;">
+      Docker<br>80%
+    </div>
+  </div>
+  
+  <!-- スキル4: MySQL -->
+  <div style="width: 150px; height: 150px; position: relative; padding: 10px;">
+    <canvas id="skillChart4"></canvas>
+    <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); text-align: center; font-weight: bold; color: #333;">
+      MySQL<br>70%
+    </div>
+  </div>
+  
+  <!-- スキル5: GCP -->
+  <div style="width: 150px; height: 150px; position: relative; padding: 10px;">
+    <canvas id="skillChart5"></canvas>
+    <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); text-align: center; font-weight: bold; color: #333;">
+      GCP<br>70%
+    </div>
+  </div>
+  
+</div>
 
-より詳しい**スキルや経験プロジェクト**はヘッダーから別ページにてご覧ください。
+<!-- スクリプトでチャートを初期化 -->
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    // スキル1: C#
+    var ctx1 = document.getElementById('skillChart1').getContext('2d');
+    var skillChart1 = new Chart(ctx1, {
+      type: 'doughnut',
+      data: {
+        labels: ['レベル感', '未使用'],
+        datasets: [{
+          data: [90, 10],
+          backgroundColor: ['#4A90E2', '#E0E0E0'], // C#のブランドカラー
+          borderWidth: 0
+        }]
+      },
+      options: {
+        cutout: '70%',
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: {
+          legend: { display: false }
+        }
+      }
+    });
+
+    // スキル2: PHP
+    var ctx2 = document.getElementById('skillChart2').getContext('2d');
+    var skillChart2 = new Chart(ctx2, {
+      type: 'doughnut',
+      data: {
+        labels: ['レベル感', '未使用'],
+        datasets: [{
+          data: [70, 30],
+          backgroundColor: ['#F7DF1E', '#E0E0E0'], // PHPのブランドカラー
+          borderWidth: 0
+        }]
+      },
+      options: {
+        cutout: '70%',
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: {
+          legend: { display: false }
+        }
+      }
+    });
+
+    // スキル3: Docker
+    var ctx3 = document.getElementById('skillChart3').getContext('2d');
+    var skillChart3 = new Chart(ctx3, {
+      type: 'doughnut',
+      data: {
+        labels: ['レベル感', '未使用'],
+        datasets: [{
+          data: [80, 20],
+          backgroundColor: ['#0db7ed', '#E0E0E0'], // Dockerのブランドカラー
+          borderWidth: 0
+        }]
+      },
+      options: {
+        cutout: '70%',
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: {
+          legend: { display: false }
+        }
+      }
+    });
+
+    // スキル4: MySQL
+    var ctx4 = document.getElementById('skillChart4').getContext('2d');
+    var skillChart4 = new Chart(ctx4, {
+      type: 'doughnut',
+      data: {
+        labels: ['レベル感', '未使用'],
+        datasets: [{
+          data: [70, 30],
+          backgroundColor: ['#00758F', '#E0E0E0'], // MySQLのブランドカラー
+          borderWidth: 0
+        }]
+      },
+      options: {
+        cutout: '70%',
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: {
+          legend: { display: false }
+        }
+      }
+    });
+
+    // スキル5: GCP
+    var ctx5 = document.getElementById('skillChart5').getContext('2d');
+    var skillChart5 = new Chart(ctx5, {
+      type: 'doughnut',
+      data: {
+        labels: ['レベル感', '未使用'],
+        datasets: [{
+          data: [70, 30],
+          backgroundColor: ['#4285F4', '#E0E0E0'], // GCPのブランドカラー
+          borderWidth: 0
+        }]
+      },
+      options: {
+        cutout: '70%',
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: {
+          legend: { display: false }
+        }
+      }
+    });
+  });
+</script>
+
+より詳しい**[スキル](/skill/)や[経験プロジェクト](/experience/)**はヘッダーから別ページにてご覧ください。
 
 ## 自己紹介
 
-高校・大学で情報系分野を学び、**最新の技術に興味を持ち続けています**。前職ではヨーグルト工場で生産管理を経験し、現職ではゲームアプリのサーバーサイドエンジニアとして**5年目**になります。ユーザーにとって価値のあるサービスを提供することに情熱を持っています。
+高校・大学で情報系分野を学び、**最新の技術に興味を持ち続けています**。前職ではヨーグルト工場で生産管理を経験し、現職ではゲームアプリのサーバーサイドエンジニアとして**5年目**になります。常に最新の技術をキャッチアップし、現状を改善できないか意識しながら業務にあたっています。
 
 ## 職歴
 
@@ -40,6 +199,8 @@ excerpt: "転職活動中です"
 - **コンテナ**: k8s, Docker
 - **その他**: Git, Linux, アジャイル開発
 
+より詳しく見たい方は[スキル](/skill/)をご覧ください。
+
 ## 資格・受賞歴
 
 - **基本情報技術者試験** 
@@ -51,11 +212,9 @@ excerpt: "転職活動中です"
 
 ## 趣味・関心
 
-- **趣味**: プログラミング
+- **趣味**: プログラミング、サウナ
 - **関心分野**: AI・機械学習、パフォーマンスチューニング
 
 ---
 
-**転職活動中です。面接をご検討いただける企業様がございましたら、[こちら](/contact/)からご連絡ください。**
-
----
+**転職活動中です。採用をご検討いただける企業様がございましたら、[こちら](/contact/)からご連絡ください。**
