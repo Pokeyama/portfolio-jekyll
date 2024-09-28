@@ -12,7 +12,7 @@ header:
     - label: "連絡先"
       url: /self/
       class: "btn--primary"
-excerpt: "採用をご検討いただける企業様がございましたら、連絡先からご連絡ください"
+excerpt: "興味をお持ちいただけましたら、ご連絡ください。"
 author_profile: true
 ---
 <!-- Chart.js CDNの追加 -->

@@ -1,6 +1,6 @@
 main:
   - title: "プロフィール"
-    url: /
+    url: /#自己紹介
 
   - title: "スキル"
     url: /skill/
