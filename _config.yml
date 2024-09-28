@@ -38,7 +38,7 @@ github_username:  Pokeyama
 plugins:
   - jekyll-remote-theme
   - jekyll-include-cache
-  - jekyll-feed
+  # - jekyll-feed
   - jekyll-sitemap
   # - jekyll-seo-tag
 
@@ -64,9 +64,9 @@ plugins:
 #   - vendor/ruby/
 sass:
   quiet_deps: true
-  style: compressed
-  load_paths:
-    - assets/css
+  # style: compressed
+  # load_paths:
+  #   - assets/css
 
 # ナビゲーションメニューの設定
 navigation:
