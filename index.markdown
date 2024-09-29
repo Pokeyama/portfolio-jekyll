@@ -33,7 +33,7 @@ author_profile: true
   <div style="width: 150px; height: 150px; position: relative; padding: 10px;">
     <canvas id="skillChart2"></canvas>
     <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); text-align: center; font-weight: bold; color: #333;">
-      PHP<br>70%
+      PHP<br>80%
     </div>
   </div>
   
@@ -95,7 +95,7 @@ author_profile: true
       data: {
         labels: ['レベル感', '未使用'],
         datasets: [{
-          data: [70, 30],
+          data: [80, 20],
           backgroundColor: ['#F7DF1E', '#E0E0E0'], // PHPのブランドカラー
           borderWidth: 0
         }]
@@ -215,6 +215,27 @@ author_profile: true
 
 - **趣味**: プログラミング、サウナ
 - **関心分野**: AI・機械学習、パフォーマンスチューニング
+
+## 勉強中の技術
+
+- **Python**
+  - データ分析や機械学習への応用を目指して学習中。
+  
+- **TypeScript**
+  - フロントエンド開発の強化と型安全性の向上を目的に勉強中。
+  
+- **Go**
+  - 高性能なサーバーサイド開発のための言語として学習。
+  
+- **Ruby**
+  - WebフレームワークRuby on Railsを用いた開発に興味があり勉強中。
+  
+- **New Relic**
+  - アプリケーションのパフォーマンス監視と最適化のために学習中。
+
+何かを作るときは業務で使用している言語にこだわっていません。
+
+制作物を確認したい方は[制作物]({{ site.baseurl }}/works/)をご覧ください。
 
 ---
 
