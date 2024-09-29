@@ -12,7 +12,7 @@ header:
     - label: "連絡先"
       url: /self/
       class: "btn--primary"
-excerpt: "転職活動中につきご興味をお持ちいただけましたら、ご連絡ください。"
+excerpt: "転職活動中につき興味をお持ちいただけましたら、ご連絡ください。"
 author_profile: true
 ---
 <!-- Chart.js CDNの追加 -->
@@ -204,6 +204,7 @@ author_profile: true
 ## 資格・受賞歴
 
 - **基本情報技術者試験** 
+- **情報技術検定 2級**
 - **Qiitaトレンド入り2回**　
 
   > [Service Locatorがアンチパターンとされる理由、DIコンテナの誤用による失敗例](https://qiita.com/simoyama2323/items/f94f738d933a143f470e)
@@ -217,4 +218,6 @@ author_profile: true
 
 ---
 
-**転職活動中です。採用をご検討いただける企業様がございましたら、[こちら]({{ site.baseurl }}/self/)からご連絡ください。**
+**転職活動中です。**
+
+**採用をご検討いただける企業様がございましたら、[こちら]({{ site.baseurl }}/self/)からご連絡ください。**

@@ -5,9 +5,32 @@ permalink: /self/
 author_profile: true
 ---
 
- **採用をご検討したい！**と思わないまでも、**少し興味が出て話を聞きたい**と思って頂けましたらご連絡頂けましたら幸いです。
+<style>
+  @import .contact-method {
+    list-style: none;
+    padding: 0;
+  }
+  
+  @import .contact-method li {
+    margin: 10px 0;
+    font-size: 1.2em;
+  }
+  
+  @import .contact-method a {
+    text-decoration: none;
+    color: #1DA1F2; /* X/Twitterのブランドカラー */
+  }
+  
+@import .contact-method a:hover {
+    text-decoration: underline;
+  }
+</style>
 
- 以下のどちらかからご連絡ください。
+**採用をご検討いただける方はもちろん、少しでも興味を持っていただけましたらお気軽にご連絡ください。**
 
-- **X**(DM): [@MochiyamaTarou](https://x.com/MochiyamaTarou)
-- **メールアドレス**: [kabochanghead@icloud.com](mailto:kabochanghead@icloud.com)
+以下のいずれかの方法でご連絡ください。
+
+<ul class="contact-method">
+  <li><strong>X</strong> (DM): <a href="https://x.com/MochiyamaTarou" target="_blank">@MochiyamaTarou</a></li>
+  <li><strong>メールアドレス</strong>: <a href="mailto:kabochanghead@icloud.com">kabochanghead@icloud.com</a></li>
+</ul>
