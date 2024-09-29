@@ -11,9 +11,9 @@ author_profile: true
 
 - **言語**: C# ASP.NET, PHP Slim
 - **OS**: MacOS, Debian
-- **DB**: MariaDB, Spanner, Redis
+- **DB**: MySQL, Spanner, Redis
 - **ミドルウェア**: Nginx
-- **クラウド**: GCP
+- **クラウド**: GCP(GKE, GCS)
 - **その他**: Docker, Kubernetes
 - **チーム規模**: 全12名
 
@@ -67,7 +67,7 @@ iOS・Android従量課金用ライブラリ開発。
 - **言語**: C# ASP.NET, PHP Slim
 - **OS**: MacOS, Debian
 - **DB**: MariaDB, Redis
-- **クラウド**: AWS
+- **クラウド**: AWS(EC2, ALB, RDS)
 - **その他**: Docker
 - **チーム規模**: 全4名（コードレビュー者1名、インフラ1名）
 

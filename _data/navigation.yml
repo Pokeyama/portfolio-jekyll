@@ -8,5 +8,8 @@ main:
   - title: "経験プロジェクト"
     url: /experience/
 
+  - title: "制作物"
+    url: /works/
+    
   - title: "連絡先"
     url: /self/
