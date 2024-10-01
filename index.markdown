@@ -196,7 +196,7 @@ author_profile: true
 - **データベース**: MySQL, mariaDB, Spanner
 - **クラウドサービス**: AWS（EC2, S3, RDS）, GCP(GCS, GKE, GKE), Terraform
 - **オブザーバビリティ**: Datadog
-- **コンテナ**: k8s, Docker
+- **コンテナ**: Kubernetes, Docker
 - **その他**: Git, Linux, アジャイル開発
 
 より詳しく見たい方は[スキル]({{ site.baseurl }}/skill/)をご覧ください。
