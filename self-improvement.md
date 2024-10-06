@@ -32,5 +32,5 @@ author_profile: true
 
 <ul class="contact-method">
   <li><strong>X</strong> (DM): <a href="https://x.com/MochiyamaTarou" target="_blank">@MochiyamaTarou</a></li>
-  <li><strong>メールアドレス</strong>: <a href="mailto:kabochanghead@icloud.com">kabochanghead@icloud.com</a></li>
+  <li><strong>メールアドレス</strong>: <a href="mailto:y.hirayama.bizn@gmail.com">y.hirayama.bizn@gmail.com</a></li>
 </ul>
