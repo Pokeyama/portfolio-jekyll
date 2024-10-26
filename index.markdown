@@ -205,11 +205,14 @@ author_profile: true
 
 - **基本情報技術者試験** 
 - **情報技術検定 2級**
-- **Qiitaトレンド入り2回**　
+- **Qiitaトレンド入り3回**　
 
   > [Service Locatorがアンチパターンとされる理由、DIコンテナの誤用による失敗例](https://qiita.com/simoyama2323/items/f94f738d933a143f470e)
   >
   > [【C#】いい加減説明できるようにしたいデリゲート,Action,Func,Expression](https://qiita.com/simoyama2323/items/11ec93a130c07e23de68)
+  >
+  > [依存性注入メソッドのライフサイクル - AddTransient, AddScoped, AddSingleton](https://qiita.com/simoyama2323/items/0e082bd1582df9b33180)
+
 
 ## 趣味・関心
 

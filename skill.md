@@ -8,13 +8,15 @@ author_profile: true
 - **C#**
   - **経験年数**: 4年
   - **詳細**: ゲームアプリのサーバーサイド開発で主に使用。非同期処理や並行プログラミングに精通。
-  - **補足**: 社内でも高いレベル感でこの言語を学習しており、Qiitaにおいて2度トレンドに載りました。
+  - **補足**: 社内でも高いレベル感でこの言語を学習しており、Qiitaにおいて3回トレンドに載りました。
 
   **関連記事:**
 
   > [Service Locatorがアンチパターンとされる理由、DIコンテナの誤用による失敗例](https://qiita.com/simoyama2323/items/f94f738d933a143f470e)
   >
   > [【C#】いい加減説明できるようにしたいデリゲート,Action,Func,Expression](https://qiita.com/simoyama2323/items/11ec93a130c07e23de68)
+  >
+  > [依存性注入メソッドのライフサイクル - AddTransient, AddScoped, AddSingleton](https://qiita.com/simoyama2323/items/0e082bd1582df9b33180)
 
 
 - **PHP**
@@ -28,7 +30,7 @@ author_profile: true
   - **詳細**: .NETを用いたWebサービスの構築。ゲームアプリのサーバーサイドアプリケーション開発経験あり。
 - **Slim**
   - **経験年数**: 4年
-  - **詳細**: 軽量なPHPフレームワークを活用し、CSMツールの設計・実装を行う。
+  - **詳細**: 軽量なPHPフレームワークを活用し、CMSツールの設計・実装を行う。
 
 ## データベース
 
