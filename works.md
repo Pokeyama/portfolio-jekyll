@@ -14,7 +14,6 @@ author_profile: true
 
 - **プログラミング言語**: Python
 - **クラウドサービス**: GCP(GCS), Vertex AI
-- **ライブラリ**: PyDub
 
 ### リポジトリ
 
